@@ -20,9 +20,9 @@ function PlayerProfile() {
     name: "Player Bio", 
     bioCategories: [
       { title: "Class", description: "2030" },
-      { title: "Position", description: "SG/SF" },
-      { title: "Height", description: "5'8\"" },
-      { title: "Weight", description: "115 lbs" },
+      { title: "Position", description: "PF/C" },
+      { title: "Height", description: "5'10\"" },
+      { title: "Weight", description: "135 lbs" },
       { title: "Place of Birth", description: "San Antonio, TX" },
       { title: "High School", description: "Incarnate Word" },
     ],

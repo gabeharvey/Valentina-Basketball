@@ -12,7 +12,7 @@ function Offers() {
     },
     {
       schoolName: "College",
-      logo: "utsa-logo.png",
+      logo: "texas-logo.png",
       description: "Full athletic scholarship",
     },
   ];
