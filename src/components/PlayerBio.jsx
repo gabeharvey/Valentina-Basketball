@@ -34,7 +34,7 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="3xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5">
         {player.name}
       </Heading>
 
@@ -200,7 +200,7 @@ function PlayerProfile() {
         border="none"
       >
         <img 
-          src="/cowgirl-boots.png" 
+          src="/basketball-image.png" 
           alt="Player Image" 
           style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
         />

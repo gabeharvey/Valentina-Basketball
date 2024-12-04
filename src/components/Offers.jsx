@@ -26,7 +26,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="3xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5" textAlign="center">
+      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5" textAlign="center">
         Scholarship Offers
       </Heading>
       <Flex

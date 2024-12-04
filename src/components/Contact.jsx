@@ -16,7 +16,7 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="3xl" fontWeight="medium" color=" #7DF9FF" fontFamily="'Lobster Two', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color=" #7DF9FF" fontFamily="'Lobster Two', sans-serif">
         Contact Us
       </Heading>
       

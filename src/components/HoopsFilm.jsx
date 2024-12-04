@@ -102,7 +102,7 @@ function HoopsFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="3xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif">
         Hoops Film
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">
@@ -125,7 +125,7 @@ function HoopsFilm() {
         border="none"
       >
         <img
-          src="/cowgirl-hat.png"
+          src="/basketball-image.png"
           alt="Basketball Net"
           style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
         />

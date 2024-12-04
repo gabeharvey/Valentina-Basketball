@@ -86,7 +86,7 @@ function StatTracker() {
       bgRepeat="no-repeat"
       mt={16}
     >
-      <Heading fontSize="3xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" textAlign="center">
+      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" textAlign="center">
         Stat Tracker
       </Heading>
       <Flex gap={4} mb={6} justifyContent="center">
