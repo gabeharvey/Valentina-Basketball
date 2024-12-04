@@ -30,7 +30,7 @@ function VideoCard({ videoSrc, title, description }) {
             }}
           />
         </Box>
-        <Box p={3} textAlign="center" bgColor="#7DF9FF" h="30%">
+        <Box p={3} textAlign="center" bgColor="#F8F8FF" h="30%">
           <Text fontSize="2xl" fontWeight="semibold" color="#000000" fontFamily="'Lobster Two', sans-serif">
             {title}
           </Text>

@@ -142,7 +142,7 @@ function StatTracker() {
       </Flex>
       <MotionBox
         w={{ base: '90%', md: '600px' }}
-        bgColor="#7DF9FF"
+        bgColor="#F8F8FF"
         borderRadius="12px"
         borderColor="#FF4500"
         borderWidth="5px"
@@ -198,7 +198,7 @@ function StatTracker() {
               Team
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={gameInfo.team}
@@ -212,7 +212,7 @@ function StatTracker() {
               Opponent
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={gameInfo.opponent}
@@ -226,7 +226,7 @@ function StatTracker() {
               Date
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={gameInfo.date}
@@ -240,7 +240,7 @@ function StatTracker() {
               Points
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={stats.points}
@@ -254,7 +254,7 @@ function StatTracker() {
               Rebounds
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={stats.rebounds}
@@ -268,7 +268,7 @@ function StatTracker() {
               Assists
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={stats.assists}
@@ -282,7 +282,7 @@ function StatTracker() {
               Steals
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={stats.steals}
@@ -296,7 +296,7 @@ function StatTracker() {
               Blocks
             </FormLabel>
             <Input
-              bgColor="#7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderColor="#FF4500"
               value={stats.blocks}

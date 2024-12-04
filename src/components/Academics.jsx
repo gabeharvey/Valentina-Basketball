@@ -61,7 +61,7 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="120px"
           m="5"
-          bgColor="#7DF9FF"
+          bgColor="#F8F8FF"
           borderRadius="12px"
           borderWidth="4px"
           borderColor="#FF4500"
@@ -96,7 +96,7 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="auto"
           m="5"
-          bgColor="#7DF9FF"
+          bgColor="#F8F8FF"
           borderRadius="12px"
           borderWidth="4px"
           borderColor="#FF4500"

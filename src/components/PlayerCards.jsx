@@ -30,7 +30,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
           borderRadius="12px"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         >
-          <Box
+            <Box
             bgImage={`url(${frontImg})`}
             bgSize="cover"
             bgPosition="center"
@@ -43,7 +43,8 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             flexDirection="column"
             alignItems="center"
             justifyContent="flex-end"
-          >
+            boxShadow="0 0 25px rgba(255, 69, 0, 0.9), 0 0 50px rgba(255, 140, 0, 0.7)"
+            >
             <Text
               bg="rgba(0, 0, 0, 0)"
               w="100%"
@@ -60,29 +61,30 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
         </Box>
 
         <Box
-  bgGradient="linear(to-t, rgba(255, 193, 103, 0.5), rgba(240, 128, 128, 0.6), rgba(72, 61, 139, 0.4), rgba(0, 255, 255, 0.5))"
-  position="absolute"
-  style={{ backfaceVisibility: 'hidden' }}
-  w="100%"
-  h="100%"
-  borderRadius="12px"
-  borderColor="#FF4500"
-  borderWidth="3px"
-  display="flex"
-  flexDirection="column"
-  alignItems="center"
-  justifyContent="center"
-  boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-  transform="rotateY(180deg)"
-  p={5}
->
+            bgGradient="linear(to-t, rgba(0, 255, 255, 0.7), rgba(0, 191, 255, 0.8), rgba(72, 61, 139, 0.6), rgba(7, 107, 255, 0.8))"
+            position="absolute"
+            style={{ backfaceVisibility: 'hidden' }}
+            w="100%"
+            h="100%"
+            borderRadius="12px"
+            borderColor="#7DF9FF"
+            borderWidth="3px"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            justifyContent="center"
+            boxShadow="0 0 25px rgba(0, 255, 255, 0.9), 0 0 50px rgba(7, 107, 255, 0.7)"
+            transform="rotateY(180deg)"
+            p={5}
+            >
+
   <Box mb={2}>
     <img src="basketball-image.png" alt="Team Logo" style={{ width: '60px', height: 'auto' }} />
   </Box>
 
   <Text
     mt={2}
-    color="#000000"
+    color="#F8F8FF"
     fontFamily="'Raleway', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -92,7 +94,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
     Field Goal Percentage: .450
   </Text>
   <Text
-    color="#000000"
+    color="#F8F8FF"
     fontFamily="'Raleway', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -103,7 +105,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     mt={4}
-    color="#000000"
+    color="#F8F8FF"
     fontFamily="'Raleway', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -114,7 +116,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     mt={4}
-    color="#000000"
+    color="#F8F8FF"
     fontFamily="'Lobster Two', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -125,7 +127,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     mt={2}
-    color="#000000"
+    color="#F8F8FF"
     fontFamily="'Raleway', sans-serif"
     fontWeight="bold"
     fontSize="md"

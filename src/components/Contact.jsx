@@ -41,7 +41,7 @@ function Contact() {
             </FormLabel>
             <Input
               placeholder="Your Name"
-              bgColor=" #7DF9FF"
+              bgColor="#F8F8FF"
               color="#38383d"
               borderRadius="8px"
               borderColor="#FF4500"
@@ -56,7 +56,7 @@ function Contact() {
             <Input
               type="email"
               placeholder="Your Email"
-              bgColor=" #7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderRadius="8px"
               borderColor="#FF4500"
@@ -70,7 +70,7 @@ function Contact() {
             </FormLabel>
             <Textarea
               placeholder="Your Message"
-              bgColor=" #7DF9FF"
+              bgColor="#F8F8FF"
               color="#38393d"
               borderRadius="8px"
               borderColor="#FF4500"
