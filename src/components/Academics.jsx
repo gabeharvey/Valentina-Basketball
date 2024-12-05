@@ -10,7 +10,7 @@ function Academics() {
     "Recipient of the Academic Excellence Scholarship",
     "Completed a major in Computer Science with a focus on AI",
     "Co-Founder of the Women in Tech Club at Incarnate Word",
-    "Volunteered as a mentor for aspiring computer scientists"
+    "Volunteered as a mentor for aspiring medical professionals"
   ];
 
   return (
