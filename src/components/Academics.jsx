@@ -48,7 +48,7 @@ function Academics() {
       >
         <Image 
           src="/ai-basketball-placeholder.png" 
-          alt="Audri's Student Photo"
+          alt="Valentina's Student Photo"
           borderRadius="12px"
           w="100%" 
           h="100%" 
