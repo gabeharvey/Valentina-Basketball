@@ -135,6 +135,8 @@ const AthleteProgression = () => {
         fontFamily="'Lobster Two', sans-serif"
         mb={4}
         align="center"
+        fontSize="4xl"
+        fontWeight="medium"
       >
         Athlete Progression Tracker
       </Heading>
@@ -242,7 +244,7 @@ const AthleteProgression = () => {
       <Box mt={6}>
         <Heading
           size="lg"
-          color="#FAF0E6"
+          color="#7DF9FF"
           fontFamily="'Lobster Two', sans-serif"
           mb={4}
           align="center"
