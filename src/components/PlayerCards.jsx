@@ -183,7 +183,7 @@ function PlayerCards() {
       cardNumber: 5,
     },
     {
-      frontImg: "valentina-19.jpg",
+      frontImg: "valentina-4.jpg",
       name: "Valentina Cantu",
       bio: "Valentina Cantu is a skilled ball handler, able to create her own shot when needed.",
       funFact: "Aspires to become a professional coach in the future.",

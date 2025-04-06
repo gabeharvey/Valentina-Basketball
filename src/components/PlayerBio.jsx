@@ -15,7 +15,7 @@ function PlayerProfile() {
   };
 
   const player = {
-    frontImg: "valentina-20.jpg",
+    frontImg: "valentina-6.jpg",
     secondImg: "ai-basketball-placeholder.png",
     name: "Player Bio", 
     bioCategories: [
