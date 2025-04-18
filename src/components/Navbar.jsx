@@ -103,7 +103,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    fontSize={{ base: '4xl', md: '5xl' }}
+                    fontSize={{ base: '3xl', md: '4xl' }}
                     fontFamily="'Lobster Two', sans-serif"
                     color="#000000"
                     letterSpacing="wider"
