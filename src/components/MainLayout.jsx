@@ -5,6 +5,7 @@ import HoopsFilm from './HoopsFilm';
 // import Offers from './Offers';
 // import Media from './Media';
 import Academics from './Academics';
+import AskValentina from './AskValentina';
 
 const MainLayout = () => {
   return (
@@ -17,6 +18,9 @@ const MainLayout = () => {
       </div>
       <div id="player-cards">
         <PlayerCards />
+      </div>
+      <div id="ask-valentina">
+        <AskValentina />
       </div>
       {/* <div id="media">
         <Media />
