@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import { VStack, Heading, Box, Flex, Grid, Text, IconButton } from '@chakra-ui/react';
 import { FaFacebookF, FaInstagram, FaSnapchatGhost, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useSpring, animated } from '@react-spring/web';
 
 function PlayerProfile() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -13,7 +14,12 @@ function PlayerProfile() {
       setIsPlaying(true);
     }
   };
-
+  const headingSpring = useSpring({
+    from: { opacity: 0, transform: 'scale(0.5) rotate(-80deg)' },
+    to: { opacity: 1, transform: 'scale(1.1) rotate(0deg)' },
+    config: { tension: 200, friction: 12 },
+    reset: true, 
+  });  
   const player = {
     frontImg: "valentina-6.jpg",
     secondImg: "ai-basketball-placeholder.png",
@@ -34,10 +40,18 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5">
+    <animated.div style={headingSpring}>
+      <Heading
+        fontSize="4xl"
+        fontWeight="medium"
+        color="#7DF9FF"
+        fontFamily="'Lobster Two', sans-serif"
+        mb="5"
+        textAlign="center"
+      >
         {player.name}
       </Heading>
-
+    </animated.div>
       {/* Play Button */}
 {/* Play/Pause Button */}
 {isPlaying ? (
