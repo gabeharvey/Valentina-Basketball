@@ -80,22 +80,39 @@ const Navbar = () => {
                     flexDirection={isMobile ? 'column' : 'row'}
                     alignItems={isMobile ? 'flex-start' : 'center'}
                 >
-                    <Heading
-                        as={ScrollLink}
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={-100}
-                        duration={500}
-                        fontSize={{ base: '3xl', md: '4xl' }}
-                        fontFamily="'Lobster Two', sans-serif"
-                        color="#000000"
-                        letterSpacing="wider"
-                        mb={isMobile ? 2 : 0}
-                        style={{ cursor: 'pointer' }}
-                    >
-                        Valentina Cantu
-                    </Heading>
+<motion.div
+    initial={{ y: -100, opacity: 0, textShadow: '0px 0px 20px #7DF9FF' }}
+    animate={{ 
+        y: 0, 
+        opacity: 1, 
+        textShadow: [
+            '0px 0px 20px #7DF9FF',
+            '0px 0px 10px #7DF9FF',
+            '0px 0px 0px #7DF9FF'
+        ]
+    }}
+    transition={{
+        duration: 1,
+        ease: 'easeOut'
+    }}
+>
+                <Heading
+                    as={ScrollLink}
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    fontSize={{ base: '4xl', md: '5xl' }}
+                    fontFamily="'Lobster Two', sans-serif"
+                    color="#000000"
+                    letterSpacing="wider"
+                    mb={isMobile ? 2 : 0}
+                    style={{ cursor: 'pointer' }}
+                >
+                    Valentina Cantu
+                </Heading>
+            </motion.div>
                 </Flex>
                 <Spacer />
                 <IconButton
