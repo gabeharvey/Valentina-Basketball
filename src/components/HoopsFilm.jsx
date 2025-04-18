@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Box, Text, VStack, SimpleGrid, useBreakpointValue } from '@chakra-ui/react';
+import { useSpring, animated } from '@react-spring/web';
 
 function VideoCard({ videoSrc, title, description }) {
   return (
@@ -86,7 +87,12 @@ function HoopsFilm() {
       description: "High School Hoops Highlights",
     },
   ];
-
+  const spinningBasketball = useSpring({
+    from: { rotateZ: 0 },
+    to: { rotateZ: 360 },
+    config: { duration: 3000 },
+    loop: true,
+  });  
   const columns = useBreakpointValue({ base: 1, sm: 1, md: 2, lg: 3, xl: 4 });
 
   return (
@@ -124,11 +130,16 @@ function HoopsFilm() {
         bg="transparent"
         border="none"
       >
-        <img
-          src="/basketball-image.png"
-          alt="Basketball Net"
-          style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
-        />
+      <animated.img 
+        src="/basketball-1.png" 
+        alt="Player Image" 
+        style={{
+          ...spinningBasketball,
+          maxWidth: '100%',
+          maxHeight: '100%',
+          objectFit: 'contain',
+        }}
+      />
       </Box>
     </VStack>
   );

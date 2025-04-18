@@ -20,6 +20,12 @@ function PlayerProfile() {
     config: { tension: 200, friction: 12 },
     reset: true, 
   });  
+  const spinningBasketball = useSpring({
+    from: { rotateZ: 0 },
+    to: { rotateZ: 360 },
+    config: { duration: 3000 },
+    loop: true,
+  });  
   const player = {
     frontImg: "valentina-6.jpg",
     secondImg: "ai-basketball-placeholder.png",
@@ -213,11 +219,16 @@ function PlayerProfile() {
         bg="transparent"
         border="none"
       >
-        <img 
-          src="/basketball-image.png" 
-          alt="Player Image" 
-          style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
-        />
+      <animated.img 
+        src="/basketball-1.png" 
+        alt="Player Image" 
+        style={{
+          ...spinningBasketball,
+          maxWidth: '100%',
+          maxHeight: '100%',
+          objectFit: 'contain',
+        }}
+      />
       </Box>
     </VStack>
   );
