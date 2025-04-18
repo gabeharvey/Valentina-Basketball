@@ -199,7 +199,7 @@ function PlayerCards() {
     {
       frontImg: "valentina-21.jpg",
       name: "Valentina Cantu",
-      bio: "Valentina Cantu excels in both transition offense and defense, always being in the right place at the right time.",
+      bio: "Valentina Cantu excels in transition offense and defense, always being in the right place at the right time.",
       funFact: "Passionate about mentoring younger players.",
       cardNumber: 8,
     },
