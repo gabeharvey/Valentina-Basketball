@@ -10,7 +10,7 @@ function Media() {
       url: "https://news4sanantonio.com",
     },
     {
-      title: "Valentina Cantu with Clutch Performance vs Steele HS",
+      title: "Valentina Cantu has Clutch Performance vs Steele HS",
       url: "https://news4sanantonio.com",
     },
   ];
